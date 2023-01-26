@@ -9,7 +9,7 @@ declare(strict_types=1);
  * (c) Copyright 2023 Marc-Eric Boury 
  */
 
-$isDemo = true;
+$isDemo = false;
 
 if ($isDemo) {
     include "Solutions/Question1.php";
