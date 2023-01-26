@@ -30,6 +30,13 @@ $an_address = [
     "postalCode" => "H0H 0H0"
 ];
 $csv_string = "potato;tomato;onion;leek;cucumber";
+$usort_array = [
+    "echo",
+    "bravo",
+    "alpha",
+    "charlie",
+    "delta"
+];
 
 // </editor-fold>
 
@@ -42,7 +49,7 @@ echo '<h2>Question 4:</h2>';
  *      is indeed an array.
  *
  * b) Inside the if-block created in a), use the count() function to obtain the size of the array contained in the
- *      $an_address variable.
+ *      $an_address variable. Use the debug() function to display the resulting value.
  *
  * c) Also inside the if-block created in a), create a nested if conditional. Use array_key_exists() in the condition
  *      of this nested if-block to check if the $an_address array has a key named "state", and use debug() to display
@@ -55,7 +62,7 @@ echo '<h2>Question 4:</h2>';
  * e) The pre-defined variable $csv_string contains a list of semicolon-separated values. Use explode() to separate
  *      those values into an array and debug() to display the resulting array.
  *
- * f) The $int_array contains non-ordered integers. Use each of the following function and he debug() on to sequentially
+ * f) The $int_array contains non-ordered integers. Use each of the following function and the debug() one to sequentially
  *      sort in various ways and display the array. Note the effect on the keys.
  *          asort()
  *          arsort()

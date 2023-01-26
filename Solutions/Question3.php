@@ -50,12 +50,32 @@ echo '<h2>Question 3:</h2>';
  * c) Use the rand() funtion three times function to generate integers between 0 and 100 and use the debug() function to
  *      display each result.
  *
- * c) Use the random_int() function three times function to generate integers between 0 and 100 and use the debug()
+ * d) Use the random_int() function three times function to generate integers between 0 and 100 and use the debug()
  *      function to display each result.
  */
 // WRITE YOUR CODE HERE
 
+echo "a)";
+debug(max($int_array));
+debug(min($int_array));
 
+echo "b)";
+debug(round(get_tax_amount(19.99), 2));
+debug(round(get_tax_amount(192.50), 2));
+
+echo "c)";
+debug(rand(0, 100));
+debug(rand(0, 100));
+debug(rand(0, 100));
+
+echo "d)";
+try {
+    debug(random_int(0, 100));
+    debug(random_int(0, 100));
+    debug(random_int(0, 100));
+} catch (Exception $exception) {
+    die(1);
+}
 
 
 

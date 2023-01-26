@@ -9,3 +9,17 @@ declare(strict_types=1);
  * (c) Copyright 2023 Marc-Eric Boury 
  */
 
+$isDemo = true;
+
+if ($isDemo) {
+    include "Solutions/Question1.php";
+    include "Solutions/Question2.php";
+    include "Solutions/Question3.php";
+    include "Solutions/Question4.php";
+    
+} else {
+    include "Questions/Question1.php";
+    include "Questions/Question2.php";
+    include "Questions/Question3.php";
+    include "Questions/Question4.php";
+}

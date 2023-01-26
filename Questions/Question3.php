@@ -50,7 +50,7 @@ echo '<h2>Question 3:</h2>';
  * c) Use the rand() funtion three times function to generate integers between 0 and 100 and use the debug() function to
  *      display each result.
  *
- * c) Use the random_int() function three times function to generate integers between 0 and 100 and use the debug()
+ * d) Use the random_int() function three times function to generate integers between 0 and 100 and use the debug()
  *      function to display each result.
  */
 // WRITE YOUR CODE HERE

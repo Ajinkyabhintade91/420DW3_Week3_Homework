@@ -64,9 +64,9 @@ echo '<h2>Question 2:</h2>';
  * b) Use the strtolower() and strtoupper() functions to obtain the lowercase and uppercase versions of the string
  *      pre-defined variable $mixed_case_string and use the debug() function to display both results.
  *
- * c) The pre-defined variable $coldplay_song contains the lirics of the song "A sky full of stars" by Coldplay. Define
+ * c) The pre-defined variable $coldplay_song contains the lyrics of the song "A sky full of stars" by Coldplay. Define
  *      a "offset" integer variable initialized with zero, a while loop with an assignment operation as the condition,
- *      the strpos() function and the debug() function to display the positions of all the occurences of the string
+ *      and use the strpos() function and the debug() function to display the positions of all the occurences of the string
  *      "sky full of stars" inside the lyrics.
  *
  * d) Use the str_replace() function to replace the string "full of" by the string "filled with" in the coldplay

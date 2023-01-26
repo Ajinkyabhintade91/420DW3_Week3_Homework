@@ -88,8 +88,53 @@ echo '<h2>Question 1:</h2>';
  */
 // WRITE YOUR CODE HERE
 
+$set_variable = 55;
 
+$null_variable = null;
+$int_variable = -22;
+$string_variable = "containing a non-empty string of your choice";
+$boolean_variable = FALSE;
+$array_variable = [];
+$object_variable = new TestObject();
 
+echo "c)";
+debug(isset($set_variable));
 
+echo "d)";
+unset($set_variable);
+debug(isset($set_variable));
+
+echo "e)";
+debug(empty($null_variable));
+debug(empty($int_variable));
+debug(empty($string_variable));
+debug(empty($boolean_variable));
+debug(empty($array_variable));
+debug(empty($object_variable));
+
+echo "f)<br/>";
+var_dump($object_variable);
+echo "<br/>";
+
+echo "g)<br/>";
+echo var_export($object_variable, true);
+echo "<br/>";
+
+echo "h)";
+debug(gettype($null_variable));
+debug(gettype($int_variable));
+debug(gettype($string_variable));
+debug(gettype($boolean_variable));
+debug(gettype($array_variable));
+debug(gettype($object_variable));
+
+echo "i)";
+$set_variable = 13.845368;
+settype($set_variable, "string");
+debug($set_variable);
+
+echo "j)";
+$a_child = new AChild();
+debug(is_a($a_child, AParent::class));
 
 // END OF YOUR CODE SECTION
