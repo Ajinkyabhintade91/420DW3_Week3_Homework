@@ -9,9 +9,9 @@ declare(strict_types=1);
  * (c) Copyright 2023 Marc-Eric Boury 
  */
 
-$isDemo = false;
+$is_demo = false;
 
-if ($isDemo) {
+if ($is_demo) {
     include "Solutions/Question1.php";
     include "Solutions/Question2.php";
     include "Solutions/Question3.php";

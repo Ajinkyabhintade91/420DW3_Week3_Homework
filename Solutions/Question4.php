@@ -109,7 +109,13 @@ rsort($int_array);
 debug($int_array);
 
 echo "g)";
+/**
+ * @throws Exception
+ */
 $callback = function(mixed $element1, mixed $element2) : int {
+    if (!is_string($element1) || !is_string($element2)) {
+        throw new Exception("array element is not a string.");
+    }
     return $element1 <=> $element2;
 };
 usort($usort_array, $callback);
